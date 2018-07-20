@@ -1,0 +1,23 @@
+mainUrl='https://raw.githubusercontent.com/fsderee/sms/master/';
+
+function httpGet(theUrl)
+{
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.open( "GET", theUrl, false ); 
+	xmlHttp.send( null );
+   return xmlHttp.responseText;
+}
+
+
+if((document.location.href).indexOf('10.78.16.120:8080/argus/')>=0){
+	actoinScript=mainUrl+'perenaz.js';
+	eval(httpGet(actoinScript));
+}
+
+
+//if(getUrl.length>1){
+	//actoinScript=mainUrl+'sms4.js';
+	//eval(httpGet(actoinScript));
+//}else{
+	//alert("Данная страница пока не поддерживается(((");
+//}

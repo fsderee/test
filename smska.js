@@ -1,4 +1,4 @@
-mainUrl='https://raw.githubusercontent.com/fsderee/sms/master/';
+mainUrl='https://raw.githubusercontent.com/fsderee/test/master/';
 
 
 

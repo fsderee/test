@@ -41,7 +41,9 @@ if (!$( "div[class='ui-grid-col-9']" )[6]) {
         }
 	     if (document.getElementById("group_interaction_info_form-tab_view-node_rule_building-node_rule_building_input").value.indexOf('Саратовская ') > 1) {
             reg = 'Саратовская ОБЛ';
-            
+                         if (document.getElementById("group_interaction_info_form-tab_view-node_rule_building-node_rule_building_input").value.indexOf('Нижний Новгород Г') > 1) {
+				$( "tr[data-label='ОМССиИС Саратов']" )[0].click();
+			 } 
         }
 	    if (document.getElementById("group_interaction_info_form-tab_view-node_rule_building-node_rule_building_input").value.indexOf('Удмуртская ') > 1) {
             reg = 'Удмуртская РЕСП';

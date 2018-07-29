@@ -12,7 +12,7 @@ var result = $("table tr:eq(1) td:eq(0)").text();
 var arr = result.split(';');
 var y = '';
 arr.forEach(function(element) {
-    if(element.match(/\[(\d+\.){1}\d+\]/)) y = element;
+    if(element.match(/\[(\d+\.){3}\d+\]/)) y = element;
 });
 var adres = $('#group_interaction_info_form-tab_view-node_rule_building_out-node_rule_building_out').text();
 var timedown = $('#group_interaction_info_form-tab_view-calculate_due_date_form_out').text();

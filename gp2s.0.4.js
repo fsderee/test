@@ -20,14 +20,13 @@ if (!$( "div[class='ui-grid-col-9']" )[6]) {
         minutes = date.getMinutes();
     day < 10 && (day = "0" + day), month < 10 && (month = "0" + month), minutes < 10 && (minutes = "0" + minutes), hour < 10 && (hour = "0" + hour);
 
-    setTimeout(function() {
-      	     if (document.getElementById("group_interaction_info_form-tab_view-node_rule_building-node_rule_building_input").value.indexOf('Саратовская ') > 1) {
+    setTimeout(function(){
+        if (document.getElementById("group_interaction_info_form-tab_view-node_rule_building-node_rule_building_input").value.indexOf('Саратовская') > 1) {
             reg = 'Саратовская ОБЛ';
-                         if (document.getElementById("group_interaction_info_form-tab_view-node_rule_building-node_rule_building_input").value.indexOf('Нижний Новгород Г') > 1) {
-				$( "tr[data-label='ОМССиИС Саратов']" )[0].click();
-			 } 
-                    
-        }
+            setTimeout(function() {
+            $( "tr[data-label='ОМССиИС МРФ Волга']" )[0].click();
+            }, 1000);
+        }   
         if (document.getElementById("group_interaction_info_form-tab_view-node_rule_building-node_rule_building_input").value.indexOf('Нижегородская ОБЛ') > 1) {
             reg = 'Нижегородский филиал';
 			 if (document.getElementById("group_interaction_info_form-tab_view-node_rule_building-node_rule_building_input").value.indexOf('Нижний Новгород Г') > 1) {

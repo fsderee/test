@@ -38,14 +38,12 @@ window.open("http://wiki.kortkeros.com/sms2/backend/web/index.php");
 document.getElementById('copyw').click();
 
 
-  if (nameer.indexOf('Сарат')>=0){
-$( "li[data-tab='tab-38']" ).click();
-  document.getElementById("phone2325").click();
+document.getElementById('text').focus();
+
+setTimeout(function() {
+var result = $("#text").val();
+var arr = result.split(',');
+var nameer = arr[1];
+  if (nameer.indexOf('Саратовская')>=0){
+$( "li[data-tab='tab-10']" ).click();
   var result = $("#text").val();
-var t = arr[2].trim();
-$('[data-keyword *= "'+t+'"]').click();
-   }
-  
-  
-  
-}, 2000);

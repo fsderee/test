@@ -47,3 +47,5 @@ var nameer = arr[1];
   if (nameer.indexOf('Саратовская')>=0){
 $( "li[data-tab='tab-10']" ).click();
   var result = $("#text").val();
+ 
+}, 2000);

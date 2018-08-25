@@ -37,9 +37,7 @@ window.open("http://wiki.kortkeros.com/sms2/backend/web/index.php");
 });
 document.getElementById('copyw').click();
 
-document.getElementById('text').focus();
 
-setTimeout(function()
   if (nameer.indexOf('Сарат')>=0){
 $( "li[data-tab='tab-38']" ).click();
   document.getElementById("phone2325").click();

@@ -36,3 +36,18 @@ button.addEventListener('click', function(event) {
 window.open("http://wiki.kortkeros.com/sms2/backend/web/index.php");
 });
 document.getElementById('copyw').click();
+
+document.getElementById('text').focus();
+
+setTimeout(function()
+  if (nameer.indexOf('Сарат')>=0){
+$( "li[data-tab='tab-38']" ).click();
+  document.getElementById("phone2325").click();
+  var result = $("#text").val();
+var t = arr[2].trim();
+$('[data-keyword *= "'+t+'"]').click();
+   }
+  
+  
+  
+}, 2000);

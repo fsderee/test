@@ -79,8 +79,7 @@ $('[data-keyword *= "'+t+'"]').click();
   
   if (nameer.indexOf('Сарат')>=0){
 $( "li[data-tab='tab-38']" ).click();
-  document.getElementById("phone2325").click();
-  var result = $("#text").val();
+    var result = $("#text").val();
 var t = arr[2].trim();
 $('[data-keyword *= "'+t+'"]').click();
    }

@@ -27,7 +27,7 @@ if (!$( "div[class='ui-grid-col-9']" )[6]) {
             $( "tr[data-label='ОМССиИС Саратов']" )[0].click();
             }, 1000);
         }   
-        if (document.getElementById("group_interaction_info_form-tab_view-node_rule_building-node_rule_building_input").value.indexOf('Нижегородская ОБЛ') > 1) {
+        if (document.getElementById("group_interaction_info_form-tab_view-node_rule_building_out").value.indexOf('Нижегородская ОБЛ') > 1) {
             reg = 'Нижегородский филиал';
 			 if (document.getElementById("group_interaction_info_form-tab_view-node_rule_building-node_rule_building_input").value.indexOf('Нижний Новгород Г') > 1) {
 				$( "tr[data-label='ОМССиИС Нижний Новгород']" )[0].click();

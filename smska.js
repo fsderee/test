@@ -14,7 +14,7 @@ var y = '';
 arr.forEach(function(element) {
     if(element.match(/\[(\d+\.){3}\d+\]/)) y = element;
 });
-var adres = $('#group_interaction_info_form-tab_view-node_rule_building_out-node_rule_building_out').text();
+var adres = $('#group_interaction_info_form-tab_view-node_rule_building_out-address_ac_out').text();
 var timedown = $('#group_interaction_info_form-tab_view-calculate_due_date_form_out').text();
 var namberGP = $( "span[class='heading-accent']" ).text();
 

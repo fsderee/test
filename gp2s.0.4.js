@@ -21,7 +21,7 @@ if (!$( "div[class='ui-grid-col-9']" )[6]) {
     day < 10 && (day = "0" + day), month < 10 && (month = "0" + month), minutes < 10 && (minutes = "0" + minutes), hour < 10 && (hour = "0" + hour);
 
     setTimeout(function(){
-        if (document.getElementById("group_interaction_info_form-tab_view-node_rule_building-address_ac_input").value.indexOf('Саратовская ОБЛ') > 1) {
+        if (document.getElementById("group_interaction_info_form-tab_view-node_rule_building-address_ac").value.indexOf('Саратовская ОБЛ') > 1) {
             reg = 'Саратовская ОБЛ';
             setTimeout(function() {
             $( "tr[data-label='ОМССиИС Саратов']" )[0].click();

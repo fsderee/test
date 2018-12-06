@@ -31,6 +31,6 @@ var button = document.querySelector('.copy');
 button.addEventListener('click', function(event) {
   var text = document.querySelector('.text');
   text.select();
-  document.execCommand('copy');}
+  document.execCommand('copy');
 }
 

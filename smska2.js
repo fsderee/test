@@ -18,7 +18,7 @@ var adres = $('#group_interaction_info_form-tab_view-node_rule_building_out-addr
 var timedown = $('#group_interaction_info_form-tab_view-calculate_due_date_form_out').text();
 var namberGP = $( "span[class='heading-accent']" ).text();
 
-var mess = "Недоступно оборудование " + adres +' '+ y + " Время начала аварии " + timedown+ " "+ namberGP ;
+var mess = adres +' '+ y + " "+ namberGP ;
 //$("#group_interaction_info_form-tab_view-node_rule_building_out-node_rule_building_out").html('<input type="button" name="nubex" value="Nubex" />');
 
 
@@ -33,6 +33,4 @@ button.addEventListener('click', function(event) {
   text.select();
   document.execCommand('copy');
 
-window.open("http://wiki.kortkeros.com/sms2/backend/web/index.php");
-});
-document.getElementById('copyw').click();
+

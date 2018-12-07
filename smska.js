@@ -33,7 +33,7 @@ button.addEventListener('click', function(event) {
   text.select();
   document.execCommand('copy');
 
-window.open("http://wiki.kortkeros.com/sms2/backend/web/index.php");
+window.open("http://omssis-sms.mts-nn.ru/sms2/backend/web/index.php");
 });
 document.getElementById('copyw').click();
 

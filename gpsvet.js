@@ -6,5 +6,5 @@ setTimeout(function() {
 
 setTimeout(function() {
   document.getElementById('reassign_dialog_form-j_idt1943_6').click();
-  }, 1000);
+  }, 5000);
 

@@ -5,6 +5,10 @@ setTimeout(function() {
   }, 1000);
 
 setTimeout(function() {
+  document.getElementById('reassign_dialog_form-j_idt1943_input').click();
+  }, 9000);
+setTimeout(function() {
   document.getElementById('reassign_dialog_form-j_idt1943_6').click();
   }, 9000);
+
 

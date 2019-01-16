@@ -1,4 +1,4 @@
-document.getElementById("group_def_tab-history_form-new_comment").value ='Отключение эл. энергии' ;
+document.getElementById("group_def_tab-history_form-new_comment").value ='РЭС подтвердили отключение эл. энергии' ;
 $( "button[id='group_def_tab-history_form-add_comment']" ).click();
 setTimeout(function() {
   $( "button[id='gi_header-assignTask']" ).click();

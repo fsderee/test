@@ -3,5 +3,8 @@ $( "button[id='group_def_tab-history_form-add_comment']" ).click();
 setTimeout(function() {
   $( "button[id='gi_header-assignTask']" ).click();
   }, 1000);
-document.getElementById('reassign_dialog_form-j_idt1943_6').click();
+
+setTimeout(function() {
+  document.getElementById('reassign_dialog_form-j_idt1943_6').click();
+  }, 1000);
 

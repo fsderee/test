@@ -6,12 +6,12 @@ setTimeout(function() {
 
 setTimeout(function() {
   document.getElementById('reassign_dialog_form-j_idt1943_input').click();
-  }, 3000);
+  }, 2000);
 setTimeout(function() {
   document.getElementById('reassign_dialog_form-j_idt1943_6').click();
-  }, 3000);
+  }, 2000);
 setTimeout(function() {
   $( "button[id='reassign_dialog_form-reassign']" ).click();
-   }, 9000);
+   }, 3000);
 
 

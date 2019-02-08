@@ -8,7 +8,7 @@ setTimeout(function() {
   document.getElementById('reassign_dialog_form-j_idt1943_input').click();
   }, 2000);
 setTimeout(function() {
-  document.getElementByXPath('//*[@id="reassign_dialog_form-j_idt1943_3"]').click();
+  document.getElementByXPath('reassign_dialog_form-j_idt1943_3').click();
   }, 2000);
 setTimeout(function() {
   $( "button[id='reassign_dialog_form-reassign']" ).click();

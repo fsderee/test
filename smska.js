@@ -48,12 +48,3 @@ button.addEventListener('click', function(event) {
 window.open("http://omssis-sms.mts-nn.ru/sms2/backend/web/index.php");
 });
 document.getElementById('copyw').click();
-
-setTimeout(function() {
-    window.close();
-    }, 3000);
-
-}, 400);
-
-
-

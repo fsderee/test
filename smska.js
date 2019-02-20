@@ -18,6 +18,12 @@ var adres = $('#group_interaction_info_form-tab_view-node_rule_building_out-addr
 var timedown = $('#group_interaction_info_form-tab_view-calculate_due_date_form_out').text();
 var namberGP = $( "span[class='heading-accent']" ).text();
 
+var vse = new Array();
+var len = $(".ui-datatable-selectable").length;
+for(i=0;i<len;i++){
+var e = $(".ui-datatable-selectable").eq(i).find("td").eq(1).html();
+vse.push(e);
+}
 var sum = 0;
 for(var i=0;i<vse.length;i++){
     sum = sum + parseInt(vse[i]);
@@ -43,7 +49,11 @@ window.open("http://omssis-sms.mts-nn.ru/sms2/backend/web/index.php");
 });
 document.getElementById('copyw').click();
 
+setTimeout(function() {
+    window.close();
+    }, 3000);
 
+}, 400);
 
 
 

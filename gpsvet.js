@@ -19,7 +19,7 @@ setTimeout(function() {
   document.getElementById('reassign_dialog_form-j_idt1970_6').click();
   }, 2000);
 setTimeout(function() {
-  document.getElementById('group_def_tab-history_form-history_table-1-j_idt1764').click();
+  document.getElementById('reassign_dialog_form-select_worksite_6').click();
   }, 2000);
 
 setTimeout(function() {

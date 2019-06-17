@@ -17,6 +17,7 @@ arr.forEach(function(element) {
 var adres = $('#group_interaction_info_form-tab_view-node_rule_building_out-address_ac_out').text();
 var timedown = $('#group_interaction_info_form-tab_view-calculate_due_date_form_out').text();
 var namberGP = $( "span[class='heading-accent']" ).text();
+var fizL = $("group_interaction_info_form-tab_view-group_interaction_rule_table-j_idt703" ).text();
 
 var vse = new Array();
 var len = $(".ui-datatable-selectable").length;
@@ -30,7 +31,7 @@ for(var i=0;i<vse.length;i++){
 
 }
 
-var mess = "Недоступно оборудование " + adres +' '+ y + " . Количество установок: " + sum +". Время начала аварии " + timedown+ " "+ namberGP ;
+var mess = "Недоступно оборудование " + adres +' '+ y + " . Количество установок: " + fizL +". Время начала аварии " + timedown+ " "+ namberGP ;
 //$("#group_interaction_info_form-tab_view-node_rule_building_out-node_rule_building_out").html('<input type="button" name="nubex" value="Nubex" />');
 
 

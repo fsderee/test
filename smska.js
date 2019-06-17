@@ -17,7 +17,7 @@ arr.forEach(function(element) {
 var adres = $('#group_interaction_info_form-tab_view-node_rule_building_out-address_ac_out').text();
 var timedown = $('#group_interaction_info_form-tab_view-calculate_due_date_form_out').text();
 var namberGP = $( "span[class='heading-accent']" ).text();
-var fizL = $("group_interaction_info_form-tab_view-group_interaction_rule_table-j_idt703" ).text();
+var fizL = $('group_interaction_info_form-tab_view-group_interaction_rule_table-j_idt703').text();
 
 var vse = new Array();
 var len = $(".ui-datatable-selectable").length;

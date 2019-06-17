@@ -31,7 +31,7 @@ for(var i=0;i<vse.length;i++){
 
 }
 
-var mess = "Недоступно оборудование " + adres +' '+ y + " . Количество установок: " + fizL +". Время начала аварии " + timedown+ " "+ namberGP ;
+var mess = "Недоступно оборудование " + adres +' '+ y + " . Количество абонентов: " + fizL +". Время начала аварии " + timedown+ " "+ namberGP ;
 //$("#group_interaction_info_form-tab_view-node_rule_building_out-node_rule_building_out").html('<input type="button" name="nubex" value="Nubex" />');
 
 

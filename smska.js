@@ -18,7 +18,6 @@ var adres = $('#group_interaction_info_form-tab_view-node_rule_building_out-addr
 var timedown = $('#group_interaction_info_form-tab_view-calculate_due_date_form_out').text();
 var namberGP = $( "span[class='heading-accent']" ).text();
 var fizL = $('#group_interaction_info_form-tab_view-group_interaction_rule_table-j_idt703').text();
-var addres2 = $('//*[@id="group_interaction_info_form-tab_view-group_interaction_rule_table_data"]/tr/td[1]/text()').text()
 
 
 var vse = new Array();

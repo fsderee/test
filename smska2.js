@@ -30,7 +30,9 @@ for(var i=0;i<vse.length;i++){
 
 }
 
-var mess = y + " " + ". Количество установок: " + sum + " " + namberGP + arr ;
+var tre = $(".ui-datatable-selectable").find("td").eq(0).html().split(';');
+
+var mess = y + " " + tre + " " + namberGP + arr ;
 //$("#group_interaction_info_form-tab_view-node_rule_building_out-node_rule_building_out").html('<input type="button" name="nubex" value="Nubex" />');
 
 

@@ -34,7 +34,7 @@ for(var i=0;i<vse.length;i++){
 var tre = $(".ui-datatable-selectable").find("td").eq(0).html().split(';');
 
 
-var mess = "Недоступно оборудование " + adres + tre +' '+ " . Количество абонентов: " + fizL +". Время начала аварии " + timedown+ " "+ namberGP ;
+var mess = "Недоступно оборудование " + adres + tre[1] +' '+ " . Количество абонентов: " + fizL +". Время начала аварии " + timedown+ " "+ namberGP ;
 //$("#group_interaction_info_form-tab_view-node_rule_building_out-node_rule_building_out").html('<input type="button" name="nubex" value="Nubex" />');
 
 

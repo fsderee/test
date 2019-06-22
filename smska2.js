@@ -32,7 +32,7 @@ for(var i=0;i<vse.length;i++){
 
 var tre = $(".ui-datatable-selectable").find("td").eq(0).html().split(';');
 
-var mess = y + " " + tre[3] + " " + namberGP + arr ;
+var mess = y + " " + tre[1] + " " + namberGP + arr ;
 //$("#group_interaction_info_form-tab_view-node_rule_building_out-node_rule_building_out").html('<input type="button" name="nubex" value="Nubex" />');
 
 
